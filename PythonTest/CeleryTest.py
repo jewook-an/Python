@@ -228,3 +228,4 @@ celery -A tasks worker --loglevel=info
 
 # Celery Beat 시작 (주기적 작업용)
 celery -A tasks beat --loglevel=info
+"""
